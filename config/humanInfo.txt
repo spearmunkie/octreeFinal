@@ -1,0 +1,5 @@
+images/player2D.bmp
+models/lala.md2
+images/lala.bmp
+models/lgun.md2
+images/lgun.bmp

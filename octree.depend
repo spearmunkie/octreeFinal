@@ -1,0 +1,178 @@
+# depslib dependency file v1.0
+1290786015 source:/home/saurabh/Desktop/octree/Game.cpp
+	"Game.h"
+	<math.h>
+
+1290617249 /home/saurabh/Desktop/octree/Game.h
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<fstream>
+	"font.h"
+	"map.h"
+	"polygonManager.h"
+	"frustum.h"
+	"human.h"
+	"bulletClass.h"
+	"camera.h"
+
+1290617401 /home/saurabh/Desktop/octree/font.h
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glext.h>
+	"vec3f.h"
+
+1216924028 /home/saurabh/Desktop/octree/vec3f.h
+
+1290617406 /home/saurabh/Desktop/octree/map.h
+	<GL/gl.h>
+	"sprite.h"
+	"vec3f.h"
+	<vector>
+	<fstream>
+	<iostream>
+	<string>
+
+1290617411 /home/saurabh/Desktop/octree/sprite.h
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+
+1217646420 /home/saurabh/Desktop/octree/polygonManager.h
+	"polygon.h"
+	"map.h"
+	"octree.h"
+	<vector>
+	<string>
+	<fstream>
+
+1217434454 /home/saurabh/Desktop/octree/polygon.h
+	"vec3f.h"
+
+1290711095 /home/saurabh/Desktop/octree/octree.h
+	"frustum.h"
+	"polygon.h"
+	<vector>
+	<iostream>
+
+1290715035 /home/saurabh/Desktop/octree/frustum.h
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glext.h>
+	"plane.h"
+	"vec3f.h"
+
+1217432208 /home/saurabh/Desktop/octree/plane.h
+	"vec3f.h"
+	<math.h>
+
+1219433322 /home/saurabh/Desktop/octree/human.h
+	"playerBase.h"
+
+1219433324 /home/saurabh/Desktop/octree/playerBase.h
+	"map.h"
+	"MD2.h"
+	"bulletClass.h"
+
+1290787568 /home/saurabh/Desktop/octree/MD2.h
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glext.h>
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_image.h>
+	<fstream>
+	<iostream>
+	"vec3f.h"
+
+1222127004 /home/saurabh/Desktop/octree/bulletClass.h
+	"vec3f.h"
+	"particle.h"
+	"map.h"
+	<math.h>
+	<vector>
+
+1290619579 /home/saurabh/Desktop/octree/particle.h
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	"vec3f.h"
+	"imageloader.h"
+
+1219186248 /home/saurabh/Desktop/octree/imageloader.h
+
+1290617461 /home/saurabh/Desktop/octree/camera.h
+	"vec3f.h"
+	<math.h>
+	<SDL/SDL_opengl.h>
+
+1290620034 source:/home/saurabh/Desktop/octree/GameTest.cpp
+	"Game.h"
+	<iostream>
+
+1290788344 source:/home/saurabh/Desktop/octree/MD2.cpp
+	"MD2.h"
+	<iostream>
+	"anorms.h"
+
+1207405662 /home/saurabh/Desktop/octree/anorms.h
+
+1290619252 source:/home/saurabh/Desktop/octree/bulletClass.cpp
+	"bulletClass.h"
+
+1228618682 source:/home/saurabh/Desktop/octree/camera.cpp
+	"camera.h"
+
+1219187066 source:/home/saurabh/Desktop/octree/font.cpp
+	"font.h"
+
+1290716902 source:/home/saurabh/Desktop/octree/frustum.cpp
+	"frustum.h"
+
+1228620774 source:/home/saurabh/Desktop/octree/human.cpp
+	"human.h"
+	<math.h>
+
+1219186264 source:/home/saurabh/Desktop/octree/imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1218738360 source:/home/saurabh/Desktop/octree/map.cpp
+	"map.h"
+
+1290786810 source:/home/saurabh/Desktop/octree/octree.cpp
+	"octree.h"
+
+1290619603 source:/home/saurabh/Desktop/octree/particle.cpp
+	"particle.h"
+	<iostream>
+	<math.h>
+	<algorithm>
+	<vector>
+	<stdlib.h>
+
+1290620747 source:/home/saurabh/Desktop/octree/playerBase.cpp
+	"playerBase.h"
+	<math.h>
+
+1222127094 source:/home/saurabh/Desktop/octree/playerManager.cpp
+	"playerManager.h"
+
+1219719270 /home/saurabh/Desktop/octree/playerManager.h
+	<fstream>
+	<string>
+	"human.h"
+	"map.h"
+
+1290715851 source:/home/saurabh/Desktop/octree/polygonManger.cpp
+	"polygonManager.h"
+	<GL/glext.h>
+
+1212621192 source:/home/saurabh/Desktop/octree/sprite.cpp
+	"sprite.h"
+	<iostream>
+
+1216924028 source:/home/saurabh/Desktop/octree/vec3f.cpp
+	<math.h>
+	"vec3f.h"
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="octree" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="octree" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Linker>
+					<Add library="glu32" />
+					<Add library="openGL32" />
+					<Add library="SDL_image" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\MinGW\include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="openGL32" />
+			<Add library="glu32" />
+			<Add directory="C:\MinGW\lib" />
+		</Linker>
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="GameTest.cpp" />
+		<Unit filename="MD2.cpp" />
+		<Unit filename="MD2.h" />
+		<Unit filename="anorms.h" />
+		<Unit filename="bulletClass.cpp" />
+		<Unit filename="bulletClass.h" />
+		<Unit filename="camera.cpp" />
+		<Unit filename="font.cpp" />
+		<Unit filename="font.h" />
+		<Unit filename="frustum.cpp" />
+		<Unit filename="frustum.h" />
+		<Unit filename="human.cpp" />
+		<Unit filename="human.h" />
+		<Unit filename="imageloader.cpp" />
+		<Unit filename="imageloader.h" />
+		<Unit filename="map.cpp" />
+		<Unit filename="map.h" />
+		<Unit filename="octree.cpp" />
+		<Unit filename="octree.h" />
+		<Unit filename="particle.cpp" />
+		<Unit filename="particle.h" />
+		<Unit filename="plane.h" />
+		<Unit filename="playerBase.cpp" />
+		<Unit filename="playerBase.h" />
+		<Unit filename="playerManager.cpp" />
+		<Unit filename="playerManager.h" />
+		<Unit filename="polygon.h" />
+		<Unit filename="polygonManager.h" />
+		<Unit filename="polygonManger.cpp" />
+		<Unit filename="sprite.cpp" />
+		<Unit filename="sprite.h" />
+		<Unit filename="vec3f.cpp" />
+		<Unit filename="vec3f.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

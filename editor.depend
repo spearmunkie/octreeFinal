@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1218738360 source:/home/saurabh/Desktop/octree/map.cpp
+	"map.h"
+
+1290617406 /home/saurabh/Desktop/octree/map.h
+	<GL/gl.h>
+	"sprite.h"
+	"vec3f.h"
+	<vector>
+	<fstream>
+	<iostream>
+	<string>
+
+1290617411 /home/saurabh/Desktop/octree/sprite.h
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+
+1216924028 /home/saurabh/Desktop/octree/vec3f.h
+
+1212621192 source:/home/saurabh/Desktop/octree/sprite.cpp
+	"sprite.h"
+	<iostream>
+
+1216924028 source:/home/saurabh/Desktop/octree/vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1218745560 source:e:\octreefinal\map.cpp
+	"map.h"
+
+1290628206 e:\octreefinal\map.h
+	<GL/gl.h>
+	"sprite.h"
+	"vec3f.h"
+	<vector>
+	<fstream>
+	<iostream>
+	<string>
+
+1258785118 c:\mingw\include\gl\gl.h
+
+1290628210 e:\octreefinal\sprite.h
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+
+1216931228 e:\octreefinal\vec3f.h
+
+1212628392 source:e:\octreefinal\sprite.cpp
+	"sprite.h"
+	<iostream>
+
+1216931228 source:e:\octreefinal\vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1259392356 c:\mingw\include\math.h
+	<_mingw.h>
+
+1259392353 c:\mingw\include\_mingw.h
+
+1291496990 source:e:\octreefinal\editor.cpp
+	"map.h"
+	"sprite.h"
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+
